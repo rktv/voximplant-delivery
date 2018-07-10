@@ -1,0 +1,12 @@
+@import "../../node_modules/materialize-css/sass/materialize";
+
+.progress {
+    margin-top: 0;
+    visibility: hidden;
+    opacity: 0;
+
+    &_active {
+        visibility: visible;
+        opacity: 1;
+    }
+}
